@@ -1,1 +1,193 @@
-# Glass-company
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amba Glass Company</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1Lqc4DBlDW4a2IX86XRdBk7EVJ1VpsgZxA&s" 
+          alt="Amba Glass Company logo"
+          width="60"
+          height="45"
+        />
+        <h1>Amba Glass Company</h1>
+      </div>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h2>Elegance in Glass, Built with Precision.</h2>
+      <p>Your trusted partner for custom glass installations and premium products.</p>
+      <a href="generate.html" class="cta-button">Genrate a enquiry of glass</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="products-section container">
+    <h2>Our Signature Glass Products</h2>
+    <div class="product-grid">
+      
+      <article class="product-card">
+        <img 
+          src="https://media.istockphoto.com/id/486463252/photo/sheets-of-tempered-window-glass.jpg?s=612x612&w=0&k=20&c=YM7w2JcvO9-q6IdI99UIhK0yzvu7nVlpUr69wb3TNKA=" 
+          alt="Sheets of insulated glass"
+          width="360" height="300"
+        />
+        <h3>Insulated Glass Units (IGU)</h3>
+        <p>Energy-efficient double and triple pane glass for superior thermal performance and noise reduction.</p>
+      </article>
+
+      <article class="product-card">
+        <img 
+          src="https://www.fgwsafety.glass/wp-content/uploads/2020/05/laminated-glass-strong.jpg" 
+          alt="Tempered safety glass"
+          width="360" height="300"
+        />
+        <h3>Tempered Safety Glass</h3>
+        <p>Four times stronger than standard glass. Essential for shower enclosures, railings, and commercial doors.</p>
+      </article>
+
+      <article class="product-card">
+        <img 
+          src="https://www.creativemirror.com/resources/images/gallery/bathroom-mirror-35-3.jpg" 
+          alt="Custom cut mirrors"
+          width="360" height="300"
+        />
+        <h3>Custom Cut Mirrors</h3>
+        <p>Precision-cut mirrors for bathrooms, gyms, and decorative wall installations. Polished edges available.</p>
+       
+      </article>
+
+            <article class="product-card">
+        <img 
+          src="https://cpimg.tistatic.com/08567206/b/4/DGU-Glass.jpg" 
+          alt="Dgu mirror"
+          width="360" height="300"
+        />
+        <h3>DGU Glass</h3>
+        <p>Its energy-saving properties align with green building practices and contribute to achieving sustainability goals. Double Glazing Units (DGU) offer numerous benefits, including enhanced thermal insulation, noise reduction, condensation control, and UV protection.</p>
+       
+      </article>
+
+      <article class="product-card">
+        <img 
+          src="https://www.meandmyglass.co.uk/wp-content/uploads/2021/07/laminated-toughened-glass.jpg" 
+          alt="Laminated glass"
+          width="360" height="300"
+        />
+        <h3>Laminated Glass</h3>
+        <p>Laminated glass is manufactured by bonding two or more layers of glass together with an interlayer, such as PVB, under heat and pressure, to create a single sheet of glass. </p>
+       
+      </article>
+
+
+    </div>
+  </section>
+
+  <!--Our team -->
+  <section id="our-team" class="our-team-section">
+    <h2>Our Man power</h2>
+      <div class="container">
+        
+
+      <article class="product-card">
+        <img src="shiv_ji.jpg"
+        width="200" height="210"/>
+        <h3>Mr.Nishant Sharma <br>
+            Production Manager</h3>
+      </article>
+         
+      <article class="product-card">
+        <img src="shiv_ji.jpg"
+        width="200" height="210"/>
+        <h3> Mr.Prashant Sharma<br>
+           Marketing Manager</h3>
+      </article>
+        
+      <article class="product-card">
+        <img src="shiv_ji.jpg"
+        width="200" height="210"/>
+        <h3>Mr.Dinesh Sharma <br>
+          Supervisior </h3>
+      </article>
+      
+        <article class="product-card">
+        <img src="shiv_ji.jpg"
+        width="200" height="210"/>
+        <h3> Mr.Gaurav Sharma <br>
+          Supervisior </h3>
+      </article>
+      
+      </div>
+  </section> <br>
+
+  <!-- Projects -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Recent Projects</h2>
+      <p>From sleek office partitions to elegant glass facades, see our work.</p>
+
+      <div class="project-gallery">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQGF80354QGRaYQUL4giHAh526yPMdqrdjg&s"
+          alt="Glass office partition project"
+          width="360" height="300"
+        />
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo-xDYU4blyZ9biluaAV4EiZRvieDRfmJgQQ&s"
+          alt="Glass building facade project"
+          width="360" height="300"
+        />
+      </div>
+
+      <a href="project.html" class="cta-button secondary">See All Projects</a>
+    </div>
+  </section><br>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-owner-section container">
+    <div class="owner-info">
+      <h2>Meet the Owner</h2>
+      <div class="owner-details-card">
+        <img src="shiv_ji.jpg" width="120" height="160"/>
+        <h3>Mr. Yatendra Sharma</h3>
+        <p><strong>Founder & Master Glazier</strong></p>
+        <p><em>"Quality is not just a promise, it's our foundation."</em></p>
+      </div>
+    </div>
+
+    <div class="company-details">
+      <h2>Contact & Location</h2>
+      <p><strong>Call Us:</strong> <a href="tel:+919811562023">+91 9811562023</a></p>
+      <p><strong>Email Us:</strong> <a href="mailto:ambaglass@gmail.com">ambaglass@gmail.com</a></p>
+       <br>
+      <h3>Our head office Address:</h3>
+      <address>
+        <strong>AMBA GLASS COMPANY</strong><br />
+         Site-V, H-43, UPSIDC Ind. Area, Kasna, Greater Noida, Uttar Pradesh 201312
+      </address>
+
